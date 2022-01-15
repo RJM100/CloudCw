@@ -12,7 +12,6 @@ steps:
 - name: "gcr.io/cloud-builders/gke-deploy"
   args:
   - run
-  - --filename=K8s_configs/
   - --image=gcr.io/$PROJECT_ID/myapp:v1
   - --location=us-central1-c	
   - --cluster=cluster-cw1

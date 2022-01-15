@@ -1,0 +1,2 @@
+
+docker build -t rj:rj c:\users\dell\desktop\vscode\
